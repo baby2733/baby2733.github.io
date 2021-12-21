@@ -132,7 +132,7 @@ button:active {
   padding: 10px;
 }
 
-.section {
+section {
   display: flex;
   justify-content: center;
   margin-top: 100px;
