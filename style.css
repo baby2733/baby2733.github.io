@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Love Light", cursive;
+  background-color: black;
+  color: white;
+  background-image: url("./img/bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.nav-bar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding-right: 70px;
+}
+
+.title {
+  text-transform: capitalize;
+  padding-left: 70px;
+  margin-bottom: 0px;
+  font-size: 50px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 2px;
+}
+
+.nav-list li:hover {
+  background-color: rgb(56, 55, 55);
+  height: max-content;
+  width: max-content;
+}
+
+.nav-list-show li:hover {
+  background-color: rgb(56, 55, 55);
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.profile-container {
+  background-color: black;
+  opacity: 0.46;
+}
+
+p {
+  font-size: 30px;
+  max-width: 800px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-left: 25px;
+}
+
+.style-break {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  border-radius: 2.5px;
+  margin: 30px 0px 30px 0px;
+}
+
+button {
+  height: 40px;
+  width: 250px;
+  border: solid 1px black;
+  border-radius: 25px;
+  margin-left: 35px;
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  font-family: "Love Light", cursive;
+}
+
+button:active {
+  box-shadow: 3px 2.5px 0px 2px rgba(0, 0, 0, 0.445);
+}
+
+.humburguer:active {
+  box-shadow: -20px 39px 85px 41px rgba(255, 255, 255, 0.6) inset;
+  -webkit-box-shadow: -20px 39px 85px 41px rgba(255, 255, 255, 0.6) inset;
+  -moz-box-shadow: -20px 39px 85px 41px rgba(255, 255, 255, 0.6) inset;
+}
+@media only screen and (min-width: 501px) {
+  .humburguer,
+  .see {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+.show {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+}
+
+.see {
+  opacity: 0.9;
+  pointer-events: all;
+}
+
+.date {
+  font-size: medium;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.p {
+  font-family: "Love Light", cursive;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}

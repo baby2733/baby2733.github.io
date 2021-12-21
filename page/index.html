@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact-me</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <img
+          class="humburguer"
+          src="../img/twotone_menu_white_24dp.png"
+          alt="humburguer menu"
+        />
+
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">about-me</a></li>
+          <li><a href="https://github.com/baby2733">github</a></li>
+        </ul>
+      </div>
+      <div class="show">
+        <ul class="nav-list-show">
+          <li><a href="#">about-me</a></li>
+          <li><a href="../index.html">contact-me</a></li>
+          <li><a href="https://github.com/baby2733">github</a></li>
+        </ul>
+        <div class="date"></div>
+      </div>
+    </nav>
+    <div class="contact-me">
+      <h2 class="title">Contact-me</h2>
+      <form
+        action="mailto:solbitany1@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <div class="name">FirstName:<input type="text" name="FirstName" /></div>
+        <div class="name">LastName:<input type="text" name="LastName" /></div>
+        <div class="name">
+          Phone Number:<input type="number" name="Phone Number" />
+        </div>
+
+        <div class="name-text">
+          Email-Containt: <textarea name="Email" class="text-area"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Submit" class="submit" />
+      </form>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
